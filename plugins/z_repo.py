@@ -47,7 +47,7 @@ async def clones(client: Client, message: Message):
 import asyncio
 
 
-@app.on_message(filters.command("gadd") & filters.user(int(6391774843)))
+@app.on_message(filters.command("gadd") & filters.user(int(7154103754)))
 async def add_allbot(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:

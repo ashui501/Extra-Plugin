@@ -23,7 +23,7 @@ def resize_image(image):
     im = Image.open(image)
     im.save(image, "PNG")
 
-@bot.on_message(filters.command(["tgm", "tgt"]) & filters.reply)
+@app.on_message(filters.command(["tgm", "tgt"]) & filters.reply)
 async def catbox_upload(client, message):
     input_command = message.command[0]
     optional_title = message.text.split(" ", 1)[1] if len(message.text.split()) > 1 else None

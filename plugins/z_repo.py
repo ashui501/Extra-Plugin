@@ -15,7 +15,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✹ƨσʋяcɛ✹", url=f"https://github.com/kakshi0962z/MOONLIGHT"
+                        "✹ƨσʋяcɛ✹", url=f"https://github.com/MOON-CODES/SUNLIGHT"
                     )
                 ]
             ]
@@ -32,7 +32,7 @@ async def clones(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✹ƨσʋяcɛ✹", url=f"https://github.com/kakshi0962z/MOONLIGHT"
+                        "✹ƨσʋяcɛ✹", url=f"https://github.com/MOON-CODES/SUNLIGHT"
                     )
                 ]
             ]
@@ -66,7 +66,7 @@ async def add_allbot(client, message):
         lol = await message.reply("🔄 **ᴀᴅᴅɪɴɢ ɢɪᴠᴇɴ ʙᴏᴛ ɪɴ ᴀʟʟ ᴄʜᴀᴛs!**")
         await userbot.send_message(bot_username, f"/start")
         async for dialog in userbot.get_dialogs():
-            if dialog.chat.id == -1002120144597:
+            if dialog.chat.id == -1001550054357:
                 continue
             try:
 
